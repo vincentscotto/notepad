@@ -55,7 +55,6 @@ function destroy() {
   selected = null;
 }
 
-// 
 document.getElementById('notepad').onmousedown = function () {
   drag(this);
   return false;
